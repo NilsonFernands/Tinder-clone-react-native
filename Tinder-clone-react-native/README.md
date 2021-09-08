@@ -19,17 +19,17 @@
 </p>
 
 
-## Overview
+## Visão geral
 
-⚠️ **This repository is not maintain anymore. I've made another repository of this project on Expo (and with Typescript) : https://github.com/stevenpersia/tinder-expo.**
+⚠️ ** Este repositório não é mais mantido. Fiz outro repositório deste projeto na Expo (e com Typescript): https://github.com/stevenpersia/tinder-expo.**
 
-👏 **Thank you for your stars, your issues and your pull requests. I really love open source community.** ❤️
+👏 ** Obrigado por suas estrelas, seus problemas e seus pedidos de pull. Eu realmente amo a comunidade de código aberto. ** ❤️
 
-**Perfect to start an Tinder Clone app.** 4 screens are availables : Explore, Matches, Messages and Profile. You'll find some components like Card Component to pass props and variant. No frameworks UI like Bootstrap or Material UI are used.
+** Perfeito para iniciar um aplicativo Tinder Clone. ** 4 telas disponíveis: Explorar, Combinar, Mensagens e Perfil. Você encontrará alguns componentes como o componente de cartão para passar adereços e variantes. Nenhum framework UI como Bootstrap ou Material UI é usado.
 
-More features will be added to the project in the future.
+Mais recursos serão adicionados ao projeto no futuro.
 
-This project was inspired by this [amazing Kishore's work on Dribbble](https://dribbble.com/shots/5631075-Dating-App-Sketch-Freebie-Day-334-365-Project365). Feel free to follow this guy because he does great stuff.
+Este projeto foi inspirado por este [incrível trabalho de Kishore no Dribbble] (https://dribbble.com/shots/5631075-Dating-App-Sketch-Freebie-Day-334-365-Project365). Sinta-se à vontade para seguir esse cara porque ele faz ótimas coisas.
 
 
 ## Screenshots
@@ -52,29 +52,29 @@ This project was inspired by this [amazing Kishore's work on Dribbble](https://d
 		src="https://github.com/stevenpersia/tinder-react-native/blob/master/preview/capture-4.png">
 
 
-## Installation and usage
+## Instalação e uso
 
-Be sure, you have installed all dependencies and applications to run React Native project on your computer : [Getting Started with React Native](https://facebook.github.io/react-native/docs/getting-started).
+Certifique-se de ter instalado todas as dependências e aplicativos para executar o projeto React Native em seu computador: [Getting Started with React Native] (https://facebook.github.io/react-native/docs/getting-started).
 
-This project works fine for iOS but in Android version there are serious UI problems because I've only worked on iOS.
+Este projeto funciona bem para iOS, mas na versão Android existem sérios problemas de IU porque eu só trabalhei no iOS.
 
 
-### Running the project
+### Executando o projeto
 
-Clone this repository :
+Clone este repositório:
 
 ```
-git clone https://github.com/stevenpersia/tinder-react-native.git
+git clone https://github.com/NilsonFernands//tinder-react-clone-native.git
 cd tinder-react-native
 ```
 
-Install packages :
+Instalar packages :
 
 ```
 npm install
 ```
 
-When installation is complete, run with version of your choice :
+Quando a instalação estiver concluída, execute com a versão de sua escolha :
 
 ```bash
 react-native run-ios
@@ -87,7 +87,7 @@ react-native run-android
 
 ### CardItem
 
-| Name           | Type     | Required | Description                                               | Example                                             |
+| Nome           | Tipo     | Requirido | Descriçao                                               | Exemplo                                             |
 | -------------- | -------- | -------- | --------------------------------------------------------- | --------------------------------------------------- |
 | `image`        | string   | Yes      | Picture of member.                                        | `image="https://..."`                               |
 | `name`         | string   | Yes      | Name of member.                                           | `name="John Doe"`                                   |
@@ -99,9 +99,9 @@ react-native run-android
 | `status`       | string   | No       | Display online or offline badge (`Online` and `Offline`). | `status="Online"`                                   |
 | `variant`      | boolean  | No       | Display another style of card (used for Matches screen).  | `variant`                                           |
 
-### Message
+### Mensagem
 
-| Name          | Type   | Required | Description             | Example                                                                                      |
+| Nome          | Tipo   | Requirido | Descriçao             | Exemplo                                                                                    |
 | ------------- | ------ | -------- | ----------------------- | -------------------------------------------------------------------------------------------- |
 | `image`       | string | Yes      | Picture of member.      | `image="https://..."`                                                                        |
 | `name`        | string | Yes      | Name of member.         | `name="John Doe"`                                                                            |
@@ -122,19 +122,14 @@ react-native run-android
 | `info4`    | string | No       | More information of member. | `info4="Last seen: 23h ago"`               |
 
 
-## Star, Fork, Clone & Contribute
+## Estrela
 
-Feel free to contribute on this repository. If my work helps you, please give me back with a star. This means a lot to me and keeps me going!
+Sinta-se à vontade para contribuir neste repositório. Se meu trabalho te ajudar, por favor me devolva com uma estrela. Isso significa muito para mim e me faz continuar!
+antençao: este conteudo foi adquirdo pelo Live em curso de JavascriptMastery no Youtube, qualquer duvida em aprendizagem pls de uma olhada lá
+## Parceiros
 
-## Contributors
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:START - Não remova ou modifique esta seção -->
 <!-- prettier-ignore -->
-<table>
-  <tr>
-<td align="center"><a href="http://Skibudsapp.com"><img src="https://avatars3.githubusercontent.com/u/25047763?v=4" width="100px;" alt="Stephen Phillips"/><br /><sub><b>Stephen Phillips</b></sub></a><br /><a href="#question-Sbphillips19" title="Answering Questions">💬</a></td>
-<td align="center"><a href="https://github.com/anand9"><img src="https://avatars3.githubusercontent.com/u/638590?v=4" width="100px;" alt="Anand Vasudevan "/><br /><sub><b>Anand Vasudevan </b></sub></a><br /><a href="https://github.com/stevenpersia/tinder-react-native/commits?author=anand9" title="Code">💻</a></td>
-  </tr>
-</table>
+
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
